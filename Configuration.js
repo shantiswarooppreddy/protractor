@@ -14,5 +14,5 @@ exports.config = {
      },
 
     seleniumAddress: 'http://localhost:4444/wd/hub',
-    specs: ['./MiscellaneousConcepts/Hyperlinks.js']
+    specs: ['./MiscellaneousConcepts/SizeAndDimension.js']
 };
