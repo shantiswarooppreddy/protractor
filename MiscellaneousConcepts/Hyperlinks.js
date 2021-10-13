@@ -8,6 +8,7 @@ describe('Sample', function(){
                        item.click();
                        expect(browser.getCurrentUrl()).toContain("rahulshettyacademy.com");
                        browser.navigate().back();
+                       browser.refresh();
                    });
         });
 

@@ -25,7 +25,5 @@ describe('Phone Shopping', function() {
 
         //Closing the Browser
         browser.close();
-
-
     });
 });
