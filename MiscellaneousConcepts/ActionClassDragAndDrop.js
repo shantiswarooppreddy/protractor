@@ -19,7 +19,9 @@ describe('Action Class Tests' , function()
            browser.actions().mouseDown(element(by.className("range-slider range-slider--primary")))
                .mouseMove({x: item.width/2, y: 0})
                .mouseUp(element(by.className("range-slider range-slider--primary")))
-               .perform();
+               .perform().then(function(){
+                   console.log("This action has been completed");
+           });
         });
 
     });

@@ -1,0 +1,8 @@
+var a = new Map()
+a.set("Door", "Wood")
+a.set("Car", "Iron")
+a.set("Oil", "Chemical")
+a.forEach(function(key, value) { console.log(key + " " + value)})
+a.delete("Oil")
+for(let x of a.entries())
+    console.log(x[0] + " " + x[1])

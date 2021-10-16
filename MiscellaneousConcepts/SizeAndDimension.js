@@ -18,6 +18,14 @@ describe('First Form test case', function() {
             console.log(item.height);
         });
 
+        browser.manage().window().setPosition(100, 100)
+        browser.manage().window().getPosition().then(function(item)
+        {
+            expect(item.x).toBe(100);
+            expect(item.y).toBe(100)
+        });
+
+
     });
 
 });
