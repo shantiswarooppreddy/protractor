@@ -1,0 +1,16 @@
+const a = ["BMW", "FIAT", "SANTRO", "MARUTI"]
+a.sort();
+console.log(a.toString())
+a.reverse()
+console.log(a.toString())
+a.push("GE")
+console.log(a.toString())
+a.pop()
+console.log(a.toString())
+a.shift()
+console.log(a.toString())
+a.unshift("WAGONR")
+console.log(a.toString())
+a.splice(2, 0, "FIAT1", "AUDI")
+console.log(a.toString())
+console.log(a.slice(2, 4).toString())

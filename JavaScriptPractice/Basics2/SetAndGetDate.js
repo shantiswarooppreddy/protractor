@@ -1,0 +1,7 @@
+var a = new Date()
+console.log(a.getFullYear() + " " + a.getMonth() + " " + a.getDate()
+            + " " + a.getHours() + " " + a.getMinutes() + " " + a.getSeconds() + " " + a.getMilliseconds())
+a.setHours(a.getHours() + 5)
+a.setMinutes(a.getMinutes() + 30)
+console.log(a.getFullYear() + " " + a.getMonth() + " " + a.getDate()
+    + " " + a.getHours() + " " + a.getMinutes() + " " + a.getSeconds() + " " + a.getMilliseconds())

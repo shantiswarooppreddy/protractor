@@ -1,0 +1,10 @@
+var a = [1, 2, -3, 4, -5, -10, 11, 15]
+a.forEach(function(item) { console.log(item)})
+a = a.map(function(item) { return item * 2 })
+console.log(a.toString())
+var b = a.filter(function(item){ return item > 0})
+console.log(b)
+var c = a.reduce(function(total, value){ return total + value}, 0)
+console.log(c)
+var d = a.reduceRight(function(total, value){ return total + value}, 0)
+console.log(d)
