@@ -13,10 +13,11 @@ exports.config = {
     capabilities: {
         'browserName': 'chrome'
     },
-    suites :
-        {
-            Regression: './CalculatorScripts/Spec.js'
-        },
     seleniumAddress: 'http://localhost:4444/wd/hub',
-    specs: ['./CalculatorScripts/DataProviderDemo.js']
+    specs: ['./MiscellaneousConcepts/AsyncAwait.js'],
+    directConnect: true,
+    SELENIUM_PROMISE_MANAGER: false,
+    jasmineNodeOpts: {
+        defaultTimeoutInterval: 100000
+    }
 };

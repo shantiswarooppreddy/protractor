@@ -1,3 +1,5 @@
+const {protractor, browser, element, by} = require("protractor");
+
 describe('Sample', function(){
     it("Sample 1", function(){
         //Launching the practice page
